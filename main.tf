@@ -12,10 +12,10 @@ terraform {
   required_version = "~> 1.0"
 
   backend "remote" {
-    organization = "REPLACE_ME"
+    organization = "Git_Terraform-Demos"
 
     workspaces {
-      name = "REPLACE_ME"
+      name = "Git_demo_aws"
     }
   }
 }
